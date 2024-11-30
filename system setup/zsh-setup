@@ -1,0 +1,14 @@
+1. install zsh 
+
+2. install zsh syntax highlighting plugin
+
+3. install zsh autosuggestions
+
+4. add below lines at the end of .zshrc
+   source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+   source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+5. install oh-my-zsh for customizations
+
+
+
