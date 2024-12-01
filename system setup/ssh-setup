@@ -1,0 +1,7 @@
+1. generate a ssh key using ssh-keygen
+
+2. start ssh agent
+
+3. add generated ssh private key to ssh agent
+
+4. add generated ssh public key to github 
