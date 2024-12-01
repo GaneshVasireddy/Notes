@@ -5,3 +5,11 @@
 3. add generated ssh private key to ssh agent
 
 4. add generated ssh public key to github 
+
+// To permenantly add private key to ssh agent follow below steps otherwise the key will only be added for current shell
+
+- add below lines in ~/.ssh/config file
+
+Host *
+    AddKeysToAgent yes
+    IdentityFile ~/personal_github
